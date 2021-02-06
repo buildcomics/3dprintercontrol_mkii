@@ -1,0 +1,14 @@
+[Unit]
+Description=3D Printer Control
+After=multi-user.target
+
+[Service]
+Type=idle
+Restart=always
+RestartSec=10
+User=tom
+Group=uucp
+ExecStart=/usr/bin/python3 -u /srv/python/3dprintercontrol/3dp_control.py
+
+[Install]
+WantedBy=multi-user.target

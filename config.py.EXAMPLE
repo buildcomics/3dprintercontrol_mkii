@@ -1,0 +1,25 @@
+#!/usr/bin/python3
+""" configuration for 3D Printer Control """
+octoprint = {
+    "url": "http://localhost:5000",
+    "apikey": "XXXXXXXXXXXXXXXXXXXXXXXXXX" #TODO: fill this with your api key from octoprint
+}
+server = {
+  "port" : 1337,
+  "host": '127.0.0.1'
+}
+psu = {
+    "control_pin" : 6,
+    "loop_delay": 0.010,
+    "readout_pin" : 7
+}
+arm = {
+    "motor_delay": 0.010,
+    "loop_delay": 0.010,
+    "stepper_pin1": 2,
+    "stepper_pin2": 3,
+    "stepper_pin3": 4,
+    "stepper_pin4": 5,
+    "limitswitch_pin": 11,
+    "pan_steps": 1000
+}
