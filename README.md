@@ -50,7 +50,7 @@ You will need to install the displaylayerprogress plugin so the arm can figure o
 ## License
 MIT License
 
-Copyright (c) 2020 buildcomics
+Copyright (c) 2021 buildcomics
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
